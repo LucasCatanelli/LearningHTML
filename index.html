@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+
+<body>
+    <h1> Formulário nada haver</h1>
+    <hr />
+    <form name="signup" onsubmit="alert('Formulário Enviado!')" method="get" action="#" />
+    <fieldset>
+        <legend>Dados Pessoais</legend>
+        <div><label>Nome:</label><input type="text" name="name" /><br>
+            <label>Idade:</label> <input type="number" name="age" min="0" max="99" step="2" /><br>
+            <label>Senha:</label> <input type="password" name="password" /><br>
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>Outros</legend>
+        <div><label>Button:</label> <input type="button" value="Enviar" /><br>
+            <label>Range:</label> <input type="range" min="0" max="100" value="20" /><br>
+            <label>Color:</label> <input type="color" /><br>
+            <label>Email:</label> <input type="email" /><br>
+            <label>URL:</label> <input type="url" /><br>
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>Alem de Outros</legend>
+        <div><label>Date:</label> <input type="date" /><br>
+            <label>Checkbox:</label> <input type="checkbox" name="#[]" /> <input type="checkbox" /><br>
+            <label>Radio:</label> <input type="radio" name="aceitar" /> <input type="radio" name="aceitar" /><br>
+            <label>Hidden:</label> <input type="hidden" /><br>
+            <label>File:</label> <input type="file" multiple /><br>
+            <label>Search:</label> <input type="search" /><br>
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>Confirmar os Dados</legend>
+        <label>Cargo:</label>
+        <div><select name="role">
+                <option value=""> Selecione o Cargo</option>
+                <option value="gerente"> Gerente</option>
+                <option value="diretor"> Diretor</option>
+                <option value="empregado"> Empregado</option>
+                <option value="presidente"> Presidente</option>
+            </select></div>
+        <br>
+        <label>Mensagem:</label> <textarea rows="5" cols="5" name="message"></textarea>
+    </fieldset>
+    <br>
+    <button type="submit"> Enviar o Formulário </button><br>
+    </form>
+    <video controls autoplay width="500" height="250">
+        <source src="">
+    </video>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14640.660655946853!2d-46.64264228171268!3d-23.454506127116144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef71fd32d1739%3A0x4e300cf9e4fc04fd!2sHorto%20Florestal%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1685735059955!5m2!1spt-BR!2sbr"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+</body>
+
+</html>
